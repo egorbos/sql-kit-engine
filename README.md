@@ -43,7 +43,7 @@ class SomeModel: Model {
 }
 ```
 
-In `SQLKitEngine` uses `camel_case` key encoding/decoding strategy, which means that your table `some_models` structure should have the following field names: `id`, `value`, `unique_value`. Actions for encoding/decoding field names are performed automatically when preparing a SQL query.
+`SQLKitEngine` use `camel_case` key encoding/decoding strategy, which means that your table `some_models` structure should have the following field names: `id`, `value`, `unique_value`. Actions for encoding/decoding field names are performed automatically when preparing a SQL query.
 
 You can also use the `SQLKit` framework to create your database structure:
 
